@@ -1,4 +1,4 @@
-# Formula 1 Analytics Engineering Project
+# 🏎️Formula 1 Analytics Engineering Project
 
 This repository documents my journey from data analysis into analytics engineering, using Formula 1 data as a practical foundation.
 
