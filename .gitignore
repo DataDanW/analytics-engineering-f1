@@ -1,0 +1,16 @@
+# Local data (never commit)
+data/
+
+# Python virtual environment
+.venv/
+
+# Secrets
+.env
+configs/config.yaml
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
