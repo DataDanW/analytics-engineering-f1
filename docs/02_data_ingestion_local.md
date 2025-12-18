@@ -14,6 +14,17 @@ I connected my project to Kaggle using an API key and built a small script that 
 - Wrote a Python ingestion script to download the dataset and store locally in a dated raw folder on my machine
 
 
+
+### Snippet examples
+> kaggle datasets files jtrotman/formula-1-race-data
+* Asked Kaggle: “What files are inside this dataset?”
+* Returned a list of CSVs, their sizes, and creation dates
+
+
+> python src/ingest/pull_kaggle_f1.py
+* Asked Kaggle: “Run the ingestion script and download”
+* Unzipped it,Saved it into a dated data/raw/YYYY-MM-DD/ folder and Printed a summary of what was downloaded
+
 ## Result?
 14 tables showing Formula 1 data from 1950 to 2025
 
