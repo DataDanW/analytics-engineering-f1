@@ -1,0 +1,28 @@
+
+
+### Install Snowflake Python dependencies in your activated virtual environment ((.venv)), run:
+
+> pip install snowflake-connector-python pandas python-dotenv
+> pip freeze > requirements.txt
+
+Why:
+* snowflake-connector-python lets Python talk to Snowflake
+* pandas helps read CSVs easily
+* python-dotenv lets us keep credentials out of code
+* Do not commit credentials later. Only requirements.txt.
+
+
+### Add Snowflake credentials
+
+>SNOWFLAKE_ACCOUNT=xxxx
+SNOWFLAKE_USER=xxxx
+SNOWFLAKE_PASSWORD=xxxx
+SNOWFLAKE_WAREHOUSE=xxxx
+SNOWFLAKE_DATABASE=F1
+SNOWFLAKE_SCHEMA=RAW
+
+### Create the Snowflake load script
+Create file: 
+src/load/load_raw_to_snowflake.py
+
+Load script - see script in code
