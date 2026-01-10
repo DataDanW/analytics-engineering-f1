@@ -11,5 +11,26 @@ You can do this by adding [Primary Key] and [Foreign Key] next to the relevant f
 You'll notice that our datatypes are assigned as varchar here. You can update these if you know them or we can go ahead and do that after we asign them in our staging layer. 
 
 Using the tools built-in relationship feature, we can build out a schema to understand our data more easily. 
+The relationships appear like this in the code editor:
+
+Ref: "seasons"."year" < "races"."year"
+
+Ref: "circuits"."circuitId" < "races"."circuitId"
+
+Ref: "races"."raceId" < "pit_stops"."raceId"
+
+Ref: "races"."raceId" < "lap_times"."raceId"
+
+Ref: "races"."raceId" < "driver_standings"."raceId"
+
+Ref: "pit_stops"."driverId" < "drivers"."driverId"
+
+Ref: "lap_times"."driverId" < "drivers"."driverId"
+
+
+Here's the schema with relationships applied:
+
+<img width="1786" height="3128" alt="formula_1_diagram (2)" src="https://github.com/user-attachments/assets/a26f14e3-516c-442e-b7fc-3952c71c084a" />
+
 
 
