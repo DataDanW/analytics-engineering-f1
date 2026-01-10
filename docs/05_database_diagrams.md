@@ -9,3 +9,7 @@ You can do this by adding [Primary Key] and [Foreign Key] next to the relevant f
 
 
 You'll notice that our datatypes are assigned as varchar here. You can update these if you know them or we can go ahead and do that after we asign them in our staging layer. 
+
+Using the tools built-in relationship feature, we can build out a schema to understand our data more easily. 
+
+
